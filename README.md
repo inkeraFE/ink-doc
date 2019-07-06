@@ -1,4 +1,4 @@
-# ink-doc
+# ink ui
 
 ## Project setup
 ```

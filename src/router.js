@@ -30,6 +30,19 @@ export default new Router({
           name: 'button'
         }
       }]
+    },
+    {
+      path: '/flex',
+      name: '',
+      component: () => import('@/views/flex'),
+      children: [{
+        path: '',
+        name: 'flex',
+        component: () => import('@/views/flex/main.vue'),
+        meta: {
+          name: 'flex'
+        }
+      }]
     }
   ]
 })

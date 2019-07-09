@@ -17,7 +17,11 @@ export default {
         childs: [{
           text: 'Button',
           routeName: 'button'
-        }]
+        },{
+          text: 'Flex',
+          routeName: 'flex'
+        }
+        ]
       }]
     }
   },

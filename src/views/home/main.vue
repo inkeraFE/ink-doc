@@ -17,11 +17,19 @@ export default {
         childs: [{
           text: 'Button',
           routeName: 'button'
-        },{
+        },
+        {
           text: 'Flex',
           routeName: 'flex'
-        }
-        ]
+        },
+        {
+          text: 'Switch',
+          routeName: 'switch'
+        },
+        {
+          text: 'Radio',
+          routeName: 'radio'
+        }]
       }]
     }
   },

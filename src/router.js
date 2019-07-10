@@ -43,6 +43,32 @@ export default new Router({
           name: 'flex'
         }
       }]
+    },
+    {
+      path: '/switch',
+      name: '',
+      component: () => import('@/views/switch'),
+      children: [{
+        path: '',
+        name: 'switch',
+        component: () => import('@/views/switch/main.vue'),
+        meta: {
+          name: 'switch'
+        }
+      }]
+    },
+    {
+      path: '/radio',
+      name: '',
+      component: () => import('@/views/radio'),
+      children: [{
+        path: '',
+        name: 'radio',
+        component: () => import('@/views/radio/main.vue'),
+        meta: {
+          name: 'radio'
+        }
+      }]
     }
   ]
 })

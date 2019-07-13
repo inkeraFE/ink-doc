@@ -29,6 +29,10 @@ export default {
         {
           text: 'Radio',
           routeName: 'radio'
+        },
+        {
+          text: 'Loading',
+          routeName: 'loading'
         }]
       }]
     }

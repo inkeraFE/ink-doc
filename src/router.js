@@ -69,6 +69,19 @@ export default new Router({
           name: 'radio'
         }
       }]
+    },
+    {
+      path: '/loading',
+      name: '',
+      component: () => import('@/views/loading'),
+      children: [{
+        path: '',
+        name: 'loading',
+        component: () => import('@/views/loading/main.vue'),
+        meta: {
+          name: 'loading'
+        }
+      }]
     }
   ]
 })

@@ -82,6 +82,19 @@ export default new Router({
           name: 'loading'
         }
       }]
+    },
+    {
+      path: '/progress',
+      name: '',
+      component: () => import('@/views/progress'),
+      children: [{
+        path: '',
+        name: 'progress',
+        component: () => import('@/views/progress/main.vue'),
+        meta: {
+          name: 'progress'
+        }
+      }]
     }
   ]
 })

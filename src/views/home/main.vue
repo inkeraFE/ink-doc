@@ -33,6 +33,10 @@ export default {
         {
           text: 'Loading',
           routeName: 'loading'
+        },
+        {
+          text: 'Progress',
+          routeName: 'progress'
         }]
       }]
     }

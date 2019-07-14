@@ -38,6 +38,19 @@ export default {
           text: 'Progress',
           routeName: 'progress'
         }]
+      },
+      {
+        title: 'Navigation',
+        childs: []
+      },
+      {
+        title: 'Popup',
+        childs: [
+          {
+            text: 'Dialog',
+            routeName: 'dialog'
+          }
+        ]
       }]
     }
   },
@@ -56,9 +69,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  #home-wrapper {
-    .content-wrapper {
-      margin: 20px;
-    }
+#home-wrapper {
+  .content-wrapper {
+    margin: 20px;
   }
+}
 </style>

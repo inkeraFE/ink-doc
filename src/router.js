@@ -95,6 +95,19 @@ export default new Router({
           name: 'progress'
         }
       }]
+    },
+    {
+      path: '/dialog',
+      name: '',
+      component: () => import('@/views/dialog'),
+      children: [{
+        path: '',
+        name: 'dialog',
+        component: () => import('@/views/dialog/main.vue'),
+        meta: {
+          name: 'dialog'
+        }
+      }]
     }
   ]
 })

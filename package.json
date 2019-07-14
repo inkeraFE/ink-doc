@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "ink-ui": "^0.0.4",
+    "ink-ui": "^0.0.6",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },

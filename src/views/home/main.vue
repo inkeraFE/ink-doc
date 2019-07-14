@@ -49,6 +49,10 @@ export default {
           {
             text: 'Dialog',
             routeName: 'dialog'
+          },
+          {
+            text: 'Popup',
+            routeName: 'popup'
           }
         ]
       }]

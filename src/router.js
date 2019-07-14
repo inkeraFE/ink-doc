@@ -108,6 +108,19 @@ export default new Router({
           name: 'dialog'
         }
       }]
+    },
+    {
+      path: '/popup',
+      name: '',
+      component: () => import('@/views/popup'),
+      children: [{
+        path: '',
+        name: 'popup',
+        component: () => import('@/views/popup/main.vue'),
+        meta: {
+          name: 'popup'
+        }
+      }]
     }
   ]
 })

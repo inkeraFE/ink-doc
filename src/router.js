@@ -121,6 +121,19 @@ export default new Router({
           name: 'popup'
         }
       }]
+    },
+    {
+      path: '/action-sheet',
+      name: '',
+      component: () => import('@/views/action-sheet'),
+      children: [{
+        path: '',
+        name: 'action-sheet',
+        component: () => import('@/views/action-sheet/main.vue'),
+        meta: {
+          name: 'action-sheet'
+        }
+      }]
     }
   ]
 })

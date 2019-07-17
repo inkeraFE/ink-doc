@@ -53,6 +53,10 @@ export default {
           {
             text: 'Popup',
             routeName: 'popup'
+          },
+          {
+            text: 'Action Sheet',
+            routeName: 'action-sheet'
           }
         ]
       }]

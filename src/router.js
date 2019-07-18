@@ -134,6 +134,19 @@ export default new Router({
           name: 'action-sheet'
         }
       }]
+    },
+    {
+      path: '/toast',
+      name: '',
+      component: () => import('@/views/toast'),
+      children: [{
+        path: '',
+        name: 'toast',
+        component: () => import('@/views/toast/main.vue'),
+        meta: {
+          name: 'toast'
+        }
+      }]
     }
   ]
 })

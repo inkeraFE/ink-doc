@@ -57,6 +57,10 @@ export default {
           {
             text: 'Action Sheet',
             routeName: 'action-sheet'
+          },
+          {
+            text: 'Toast',
+            routeName: 'toast'
           }
         ]
       }]

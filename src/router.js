@@ -147,6 +147,19 @@ export default new Router({
           name: 'toast'
         }
       }]
+    },
+    {
+      path: '/picker',
+      name: '',
+      component: () => import('@/views/picker'),
+      children: [{
+        path: '',
+        name: 'picker',
+        component: () => import('@/views/picker/main.vue'),
+        meta: {
+          name: 'picker'
+        }
+      }]
     }
   ]
 })

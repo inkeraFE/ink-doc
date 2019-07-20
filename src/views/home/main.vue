@@ -61,6 +61,10 @@ export default {
           {
             text: 'Toast',
             routeName: 'toast'
+          },
+          {
+            text: 'Picker',
+            routeName: 'picker'
           }
         ]
       }]

@@ -160,6 +160,19 @@ export default new Router({
           name: 'picker'
         }
       }]
+    },
+    {
+      path: '/header',
+      name: '',
+      component: () => import('@/views/header'),
+      children: [{
+        path: '',
+        name: 'header',
+        component: () => import('@/views/header/main.vue'),
+        meta: {
+          name: 'header'
+        }
+      }]
     }
   ]
 })

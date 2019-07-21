@@ -41,7 +41,12 @@ export default {
       },
       {
         title: 'Navigation',
-        childs: []
+        childs: [
+          {
+            text: 'Header',
+            routeName: 'header'
+          }
+        ]
       },
       {
         title: 'Popup',

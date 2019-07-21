@@ -173,6 +173,32 @@ export default new Router({
           name: 'header'
         }
       }]
+    },
+    {
+      path: '/carousel',
+      name: '',
+      component: () => import('@/views/carousel'),
+      children: [{
+        path: '',
+        name: 'carousel',
+        component: () => import('@/views/carousel/main.vue'),
+        meta: {
+          name: 'carousel'
+        }
+      }]
+    },
+    {
+      path: '/tabs',
+      name: '',
+      component: () => import('@/views/tabs'),
+      children: [{
+        path: '',
+        name: 'tabs',
+        component: () => import('@/views/tabs/main.vue'),
+        meta: {
+          name: 'tabs'
+        }
+      }]
     }
   ]
 })

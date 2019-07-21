@@ -45,6 +45,10 @@ export default {
           {
             text: 'Header',
             routeName: 'header'
+          },
+          {
+            text: 'Tabs',
+            routeName: 'tabs'
           }
         ]
       },
@@ -70,6 +74,14 @@ export default {
           {
             text: 'Picker',
             routeName: 'picker'
+          }
+        ]
+      }, {
+        title: 'Gesture',
+        childs: [
+          {
+            text: 'Carousel',
+            routeName: 'carousel'
           }
         ]
       }]

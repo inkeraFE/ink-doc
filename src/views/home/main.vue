@@ -49,6 +49,10 @@ export default {
           {
             text: 'Tabs',
             routeName: 'tabs'
+          },
+          {
+            text: 'Drawer',
+            routeName: 'drawer'
           }
         ]
       },

@@ -199,6 +199,19 @@ export default new Router({
           name: 'tabs'
         }
       }]
+    },
+    {
+      path: '/drawer',
+      name: '',
+      component: () => import('@/views/drawer'),
+      children: [{
+        path: '',
+        name: 'drawer',
+        component: () => import('@/views/drawer/main.vue'),
+        meta: {
+          name: 'drawer'
+        }
+      }]
     }
   ]
 })

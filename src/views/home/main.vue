@@ -86,6 +86,10 @@ export default {
           {
             text: 'Carousel',
             routeName: 'carousel'
+          },
+          {
+            text: 'Pull down',
+            routeName: 'pull-down'
           }
         ]
       }]

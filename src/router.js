@@ -212,6 +212,19 @@ export default new Router({
           name: 'drawer'
         }
       }]
+    },
+    {
+      path: '/pull-down',
+      name: '',
+      component: () => import('@/views/pull-down'),
+      children: [{
+        path: '',
+        name: 'pull-down',
+        component: () => import('@/views/pull-down/main.vue'),
+        meta: {
+          name: 'pull-down'
+        }
+      }]
     }
   ]
 })

@@ -90,6 +90,10 @@ export default {
           {
             text: 'Pull down',
             routeName: 'pull-down'
+          },
+          {
+            text: 'Slide',
+            routeName: 'slide'
           }
         ]
       }]

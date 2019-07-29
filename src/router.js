@@ -225,6 +225,19 @@ export default new Router({
           name: 'pull-down'
         }
       }]
+    },
+    {
+      path: '/slide',
+      name: '',
+      component: () => import('@/views/slide'),
+      children: [{
+        path: '',
+        name: 'slide',
+        component: () => import('@/views/slide/main.vue'),
+        meta: {
+          name: 'slide'
+        }
+      }]
     }
   ]
 })

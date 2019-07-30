@@ -37,6 +37,10 @@ export default {
         {
           text: 'Progress',
           routeName: 'progress'
+        },
+        {
+          text: 'Search bar',
+          routeName: 'search-bar'
         }]
       },
       {

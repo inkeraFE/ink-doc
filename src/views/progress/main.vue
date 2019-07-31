@@ -1,29 +1,31 @@
 <template>
-  <div class="wrapper">
-    <top-bar :title="'Progress'"></top-bar>
+  <ink-page class="wrapper">
+    <top-bar slot="header" :title="'Progress'"></top-bar>
+    <template slot="content">
+      <ink-flex :column="true" class="content">
+        <div class="title">默认</div>
+        <div class="item">
+          <ink-progress v-model="range0"></ink-progress>
+          <div class="value" v-text="range0 + '%'"></div>
+        </div>
+        <div class="item">
+          <ink-progress v-model="range1"></ink-progress>
+          <div class="value" v-text="range1 + '%'"></div>
+        </div>
+      </ink-flex>
     <ink-flex :column="true" class="content">
-      <div class="title">默认</div>
-      <div class="item">
-        <ink-progress v-model="range0"></ink-progress>
-        <div class="value" v-text="range0 + '%'"></div>
-      </div>
-      <div class="item">
-        <ink-progress v-model="range1"></ink-progress>
-        <div class="value" v-text="range1 + '%'"></div>
-      </div>
-    </ink-flex>
-   <ink-flex :column="true" class="content">
-      <div class="title">自定义</div>
-      <div class="item">
-        <ink-progress color="#6cbcd2" v-model="range0"></ink-progress>
-        <div class="value" v-text="range0 + '%'"></div>
-      </div>
-      <div class="item">
-        <ink-progress color="#6cd298" lineHeight="3px" v-model="range1"></ink-progress>
-        <div class="value" v-text="range1 + '%'"></div>
-      </div>
-     </ink-flex>
-  </div>
+        <div class="title">自定义</div>
+        <div class="item">
+          <ink-progress color="#6cbcd2" v-model="range0"></ink-progress>
+          <div class="value" v-text="range0 + '%'"></div>
+        </div>
+        <div class="item">
+          <ink-progress color="#6cd298" lineHeight="3px" v-model="range1"></ink-progress>
+          <div class="value" v-text="range1 + '%'"></div>
+        </div>
+      </ink-flex>
+    </template>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

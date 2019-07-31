@@ -1,14 +1,14 @@
 
 <template>
-  <div class="wrapper">
-    <top-bar :title="'Popup'"></top-bar>
-    <ink-flex>
+  <ink-page class="wrapper">
+    <top-bar slot="header" :title="'Popup'"></top-bar>
+    <ink-flex slot="content">
       <ink-btn
         style="box-shadow: 0 0 5px 1px #ccc; width: 90%; margin: 20px auto;"
         @click.native.prevent="popupShow()"
       >Popup</ink-btn>
     </ink-flex>
-  </div>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

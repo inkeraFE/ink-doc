@@ -1,18 +1,8 @@
 <template>
   <header id="header" class="clearfix">
-    <h1 class="title">Ink UI
-    </h1>
-     <p class="dis">mobile ui library for vue developer</p>
+    <h1 class="title">Ink Components</h1>
   </header>
 </template>
-
-<script type="text/javascript">
-export default {
-  data () {
-    return {}
-  }
-}
-</script>
 
 <style lang="less" scoped>
   #header {

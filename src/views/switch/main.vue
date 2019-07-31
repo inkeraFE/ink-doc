@@ -1,7 +1,7 @@
 <template>
-  <div class="switch-demo-wrapper">
-    <top-bar :title="'Switch'"></top-bar>
-    <div class="switch-content">
+  <ink-page class="switch-demo-wrapper">
+    <top-bar slot="header" :title="'Switch'"></top-bar>
+    <div slot="content" class="switch-content">
       <div class="switch-item">
         <span class="switch-title">默认</span>
         <div class="switch-demo">
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

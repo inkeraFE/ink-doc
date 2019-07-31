@@ -1,15 +1,17 @@
 <template>
-  <div class="loading-demo-wrapper">
-    <top-bar :title="'Loading'"></top-bar>
-    <ink-flex class="demo-item" :justifyBetween="true" :alignCenter="true">
-      <div class="title">默认：</div>
-      <ink-loading></ink-loading>
-    </ink-flex>
-    <ink-flex class="demo-item" :justifyBetween="true" :alignCenter="true">
-      <div class="title">自定义颜色：</div>
-      <ink-loading color="#48D1CC"></ink-loading>
-    </ink-flex>
-  </div>
+  <ink-page class="loading-demo-wrapper">
+    <top-bar slot="header" :title="'Loading'"></top-bar>
+    <template slot="content">
+      <ink-flex class="demo-item" :justifyBetween="true" :alignCenter="true">
+        <div class="title">默认：</div>
+        <ink-loading></ink-loading>
+      </ink-flex>
+      <ink-flex class="demo-item" :justifyBetween="true" :alignCenter="true">
+        <div class="title">自定义颜色：</div>
+        <ink-loading color="#48D1CC"></ink-loading>
+      </ink-flex>
+     </template>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

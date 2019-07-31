@@ -20,7 +20,8 @@ const components = [
   'drawer',
   'pull-down',
   'slide',
-  'search-bar'
+  'search-bar',
+  'loading'
 ]
 
 export default new Router({

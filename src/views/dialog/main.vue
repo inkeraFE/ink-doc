@@ -1,16 +1,18 @@
 
 <template>
-  <div class="wrapper">
-    <top-bar :title="'Dialog'"></top-bar>
-    <ink-btn
-      style="box-shadow: 0 0 5px 1px #ccc; width: 90%; margin: 20px auto;"
-      v-for="(item, index) in list"
-      :key="index"
-      size="large"
-      v-text="item.text"
-      @click="dialogShow(item.type)"
-    />
-  </div>
+  <ink-page class="wrapper">
+    <top-bar slot="content" :title="'Dialog'"></top-bar>
+    <template slot="content">
+      <ink-btn
+        style="box-shadow: 0 0 5px 1px #ccc; width: 90%; margin: 20px auto;"
+        v-for="(item, index) in list"
+        :key="index"
+        size="large"
+        v-text="item.text"
+        @click="dialogShow(item.type)"
+      />
+    </template>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

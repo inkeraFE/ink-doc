@@ -1,16 +1,18 @@
 
 <template>
-  <div class="wrapper">
-    <top-bar :title="'Toast'"></top-bar>
-    <ink-btn
-      style="box-shadow: 0 0 5px 1px #ccc; width: 90%; margin: 20px auto;"
-      v-for="(item, index) in list"
-      :key="index"
-      size="large"
-      v-text="item.text"
-      @click="toastShow(item.type)"
-    />
-  </div>
+  <ink-page class="wrapper">
+    <top-bar slot="header" :title="'Toast'"></top-bar>
+    <template slot="content">
+      <ink-btn
+        style="box-shadow: 0 0 5px 1px #ccc; width: 90%; margin: 20px auto;"
+        v-for="(item, index) in list"
+        :key="index"
+        size="large"
+        v-text="item.text"
+        @click="toastShow(item.type)"
+      />
+    </template>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

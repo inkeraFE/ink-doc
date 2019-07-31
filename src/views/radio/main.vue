@@ -1,7 +1,7 @@
 <template>
-  <div class="radio-demo-wrapper">
-    <top-bar :title="'Radio'"></top-bar>
-    <div class="radio-content">
+  <ink-page class="radio-demo-wrapper">
+    <top-bar slot="header" :title="'Radio'"></top-bar>
+    <div slot="content" class="radio-content">
       <div class="radio-item">
         <span class="radio-title">默认：</span>
         <div class="radio-demo">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

@@ -1,7 +1,7 @@
 <template>
-  <div class="button-demo-wrapper">
-    <top-bar :title="'Flex'"></top-bar>
-    <div class="demo-wrapper">
+  <ink-page class="button-demo-wrapper">
+    <top-bar slot="header" :title="'Flex'"></top-bar>
+    <div slot="content" class="demo-wrapper">
       <ink-flex :row="true" style="padding: 10px 0;">
         <ink-flex :flex="1" style="background: #b9b9c3; height: 20px" />
         <ink-flex :flex="2" style="background: #a09898; height: 20px" />
@@ -18,7 +18,7 @@
         style="background: #b9b9c3; height: 120px;"
       >justifyCenter alignCenter</ink-flex>
     </div>
-  </div>
+  </ink-page>
 </template>
 
 <script type="text/javascript">

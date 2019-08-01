@@ -9,13 +9,15 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "ink-ui": "^0.3.0",
+    "ink-ui": "^0.3.1",
+    "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-plugin-pwa": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "autoprefixer": "^9.6.1",
@@ -29,8 +31,10 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.3",
+    "glob-parent": "^5.0.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
     "postcss": "^7.0.17",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^3.0.0",

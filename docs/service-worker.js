@@ -1,4 +1,4 @@
-importScripts("precache-manifest.79142cc51c9dc44cea3e9a443dc1b693.js", "workbox-v3.6.3/workbox-sw.js");
+importScripts("precache-manifest.3448a650a35aef20de452b5d4b92eb0d.js", "workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
 /* eslint-disable*/
 // workbox 将会被注入

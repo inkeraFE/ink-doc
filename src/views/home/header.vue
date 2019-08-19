@@ -1,6 +1,6 @@
 <template>
   <header id="header" class="clearfix">
-    <h1 class="title">Ink Components</h1>
+    <h1 class="title">Vue Components</h1>
   </header>
 </template>
 

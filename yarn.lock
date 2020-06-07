@@ -4601,10 +4601,10 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-ink-ui@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/ink-ui/-/ink-ui-0.3.1.tgz#f2fa21b1f8a1946123fe795f25f61d7ba341e775"
-  integrity sha512-gswL9vIiv2t1YEmEjspbGwzbPeWBoyGEH2fZxueeyRzMGrsv17THbLPcHlmr3kRjOvQ6m1MFXOGdLgjX7xedoQ==
+ink-ui@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ink-ui/-/ink-ui-0.4.0.tgz#295075927fd6406d182eb62c29cc1b08327d50a5"
+  integrity sha512-n9Zif1V/c3foSVCmbbU2/HUXwJFZpZUQlX1fowx1FQ8gCsHKXtokeHr+W4+oLnRoPK2ykT7m1D2UVPBKu8IgYg==
 
 inquirer@^3.0.6:
   version "3.3.0"
@@ -9362,9 +9362,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"
